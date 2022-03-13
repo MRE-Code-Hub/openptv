@@ -155,5 +155,20 @@ C:\MinGW\msys\1.0\lib). This can be done by right-clicking Computer on the
 start menu, choosing Properties -> Advanced system settings -> click Environment 
 Variables -> edit the PATH variable on the bottom list and add the DLL's location,
 separated by a semicolon (;) charachter from the directories already listed.
+
+
+Installing on Windows using MSVC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+on branch /windows we created a different FindCheck.cmake that contains manual instructions  
+
+    set (CHECK_INSTALL_DIR "C:/Program Files (x86)/check")
+    set (CHECK_INCLUDE_DIRS "C:/Program Files (x86)/check/include")
+    set (CHECK_LIBRARIES "C:/Program Files (x86)/check/lib/check.lib")
+
+
+
+    
+
  
 
